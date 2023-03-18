@@ -1,0 +1,69 @@
+Pada tugas ini kamu diminta untuk membuat sebuah aplikasi basis data mahasiswa sederhana berbasis console dengan kriteria yang sudah ditentukan
+
+1. Bisa menampung sampai dengan 5 mahasiswa
+2. Validasi sesuai dengan screen, jika validasi tidak terpenuhi maka input tersebut akan terus diminta sampai terpenuhi
+3. Design screen harus mempunyai menu tambah mahasiswa, hapus mahasiswa, lihat mahasiswa dan exit
+4. Untuk menu tambah mahasiswa berikan validasi yaitu nama harus minimal 3 dan maksimal 20 karakter, umur minimal harus 17 tahun, jurusan maksimal 10 karakter
+5. Untuk menu hapus mahasiswa akan otomatis index terakhir yang terhapus
+6. Untuk menu lihat mahasiswa akan ada sub menu lagi yaitu lihat menggunakan index dan lihat semua
+7. Untuk menu lihat menggunakan index di input sesuai index data mahasiswa
+8. Untuk menu lihat semua akan menampilkan seluruh data mahasiswa yang terdaftar
+
+----------------------------
+Main Menu
+----------------------------
+1. Add Mahasiswa
+2. Delete Mahasiswa
+3. View Mahasiswa
+4. Exit
+
+Masukan menu yang dipilih : 1
+
+--------------------------------------
+
+====== Add Mahasiswa =======
+Nama (3-20 Karakter) : Joe
+Umur (min 17 Tahun): 25
+Jurusan (maks 10 Karakter) : IT
+
+--------------------------------------
+
+====== Delete Mahasiswa =======
+Mahasiswa yang terakhir masuk didelete
+
+--------------------------------------
+
+====== View Mahasiswa =======
+1. View By Index
+2. View All
+
+Masukan menu yang dipilih : 2
+
+--------------------------------------
+
+======= View By Index =======
+
+Masukan index yang ingin ditampilkan : 2
+
+No : 2
+Nama : Prana
+Umur : 17
+Jurusan : TKJ
+
+--------------------------------------
+
+======= View All =======
+No : 1
+Nama : Joe
+Umur : 25
+Jurusan : IT
+
+No: 2
+Nama : Prana
+Umur : 17
+Jurusan : TKJ
+
+No: 3
+Nama : Eza
+Umur : 15
+Jurusan : IPA
